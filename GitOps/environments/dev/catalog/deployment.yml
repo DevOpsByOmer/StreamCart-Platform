@@ -23,3 +23,17 @@ spec:
                 name: catalog-config
             - secretRef:
                 name: catalog-secret
+          livenessProbe:
+            httpGet:
+             path: /health
+             port: 8000
+            initialDelaySeconds: 20
+            periodSeconds: 10
+
+          readinessProbe:
+           httpGet:
+             path: /health
+             port: 8000
+           initialDelaySeconds: 10
+           periodSeconds: 5
+
