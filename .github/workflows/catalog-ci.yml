@@ -6,7 +6,7 @@ on:
       - "services/catalog-service/**"
     branches: [ main ]
   workflow_dispatch:
-    
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -25,7 +25,7 @@ jobs:
 
       - name: Build & Push Image
         run: |
-          docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/catalog-service:${IMAGE_TAG} services/catalog-service
+          docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/catalog-service:${IMAGE_TAG} services/catalog-service/.
           docker push ${{ secrets.DOCKERHUB_USERNAME }}/catalog-service:${IMAGE_TAG}
 
       - name: Update GitOps manifest
