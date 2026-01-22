@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: video
-          image: saotech/video-service:dd47578
+          image: streamcartacrdev.azurecr.io/video-service:0212dbd
           ports:
             - containerPort: 8000
           env:
