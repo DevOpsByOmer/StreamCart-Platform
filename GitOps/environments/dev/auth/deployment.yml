@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: auth
-          image: saotech/auth-service:eb14f07
+          image: streamcartacrdev.azurecr.io/auth-service:e8fe15b
           ports:
             - containerPort: 8000
           envFrom:
