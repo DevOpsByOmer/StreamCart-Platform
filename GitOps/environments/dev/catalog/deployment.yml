@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: catalog
-          image: saotech/catalog-service:215144a
+          image: streamcartacrdev.azurecr.io/catalog-service:95d8947
           ports:
             - containerPort: 8000
 
