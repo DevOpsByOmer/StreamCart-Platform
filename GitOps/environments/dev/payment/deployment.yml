@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: payment
-          image: streamcartacrdev.azurecr.io/payment-service:b16aa6e
+          image: streamcartacrdev.azurecr.io/payment-service:a80d4d7
           ports:
             - containerPort: 8000
           resources:
