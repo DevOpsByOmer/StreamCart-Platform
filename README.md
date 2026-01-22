@@ -1,9 +1,8 @@
-Absolutely — here’s a **clean, professional, resume-ready `README.md`** you can paste directly into your GitHub repo.
-It includes a **clear architecture diagram (visual)** + **strong explanations written like a real engineering project**, not a tutorial.
-
 ---
 
 # 🎬 StreamCart Platform
+
+---
 
 ### Cloud-Native Microservices on Azure AKS (GitOps-Driven)
 
