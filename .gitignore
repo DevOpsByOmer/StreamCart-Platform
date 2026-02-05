@@ -1,0 +1,7 @@
+.terraform
+StreamCard Platform/terraform/streamCard Infra/.terraform.lock.hcl
+.terraform.lock.hcl
+StreamCard Platform/terraform/streamCard Infra/terraform.tfstate.backup
+terraform.tfstate.backup
+StreamCard Platform/terraform/streamCard Infra/terraform.tfstate
+terraform.tfstate
